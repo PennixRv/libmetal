@@ -79,6 +79,7 @@ struct metal_device {
 	struct metal_list      node;       /**< Node on bus' list of devices */
 	int                    irq_num;    /**< Number of IRQs per device */
 	void                   *irq_info;  /**< IRQ ID */
+	void 				   *priv;
 };
 
 /**
