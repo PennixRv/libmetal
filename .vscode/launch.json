@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch Program",
+            "target": "${workspaceFolder}/build/examples/system/linux/x86_64/vfio_pci_demo/vfio_pci_demo-static",
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText",
+            "gdbpath": "/home/penn/devel/system/gdbasroot/gdb",
+            // "gdbpath": "sudo gdb",
+            // "preLaunchTask": "sudo chmod & setcap",
+        },
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "tasks": [
+        {
+            "label": "sudo chmod & setcap",
+            "type": "shell",
+            "command": "sudo",
+            "args": [
+                "/bin/bash", "-c",
+                "setcap CAP_SYS_ADMIN,CAP_DAC_OVERRIDE,CAP_SYS_NICE=ep ${workspaceFolder}/build/examples/system/linux/x86_64/vfio_pci_demo/vfio_pci_demo-static"
+            ],
+        }
+    ]
+}

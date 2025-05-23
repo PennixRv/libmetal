@@ -16,4 +16,6 @@ collect (PROJECT_LIB_SOURCES irq.c)
 collect (PROJECT_LIB_SOURCES shmem.c)
 collect (PROJECT_LIB_SOURCES time.c)
 collect (PROJECT_LIB_SOURCES utilities.c)
+collect (PROJECT_LIB_SOURCES uio.c)
+collect (PROJECT_LIB_SOURCES vfio.c)
 
